@@ -192,7 +192,7 @@ def create_template(url, vm_id, public_ssh_key_path, vm_image, docker):
                 "--name=debian-bookworm-cloudinit-template",
                 "--cicustom",
                 "vendor=local:snippets/debian-cloudinit.yaml",
-                "--tags debian,cloudinit",
+                "--tags=debian,cloudinit",
             ]
         )
 
