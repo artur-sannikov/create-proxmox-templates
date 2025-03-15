@@ -3,6 +3,8 @@
 A small script, which automatically creates virtual machine
 templates for Proxmox.
 
+I use it in my [homelab](https://codeberg.org/arsann/homelab).
+
 It has some flexibility, but most settings are hardcoded and
 adjusted for my homelab and Proxmox setup (e.g., I use ZFS).
 
